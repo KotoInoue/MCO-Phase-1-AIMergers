@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+:root {
+  width: 1920px;
+  height: 1080px;
+  background: #cbcbc6;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  mix-blend-mode: exclusion;
+}
+
+p,
+a {
+  all: unset;
+  font-family: Sora;
+  color: #000;
+}
+
+body {
+  margin: 0px;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 78px;
+  padding-bottom: 90px;
+  padding-left: 86px;
+  padding-right: 120px;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.other-pages {
+  margin-left: 57px;
+  margin-right: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages {
+  margin-left: 25.5px;
+  margin-right: 25.5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.pages:hover {
+  padding: 5px;
+  border-style: solid;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 181px;
+  margin-left: 20px;
+}
+
+#title1 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -0.25px;
+}
+
+#title2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 36px;
+}
+
+#title3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  margin-top: 142px;
+  margin-left: 20px;
+}
+
+#acc-proceed-img {
+  width: 93px;
+  height: 93px;
+  flex-shrink: 0;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+#acc-proceed-text {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+#acc-proceed-text:hover {
+  padding: 5px;
+  border-style: solid;
+}
+
+#bg-shape {
+  width: 912px;
+  height: 912px;
+  flex-shrink: 0;
+  border-radius: 912px;
+  background: #18224f;
+}
+
+#plane {
+  top: 0;
+  left: 0;
+  position: relative;
+  height: 100%;
+}
+
+#plane1 {
+  width: 438.957px;
+  height: 488.683px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 100;
+  padding-top: 208.57px;
+  padding-left: 279.19px;
+}
+
+#plane2 {
+  width: 625px;
+  height: 497.257px;
+  flex-shrink: 0;
+  position: absolute;
+  padding-top: 206px;
+  padding-left: 94px;
+}
