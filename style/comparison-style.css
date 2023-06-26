@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+:root {
+  /* width: 1920px;
+  height: 2470px; */
+  background: #cbcbc6;
+  font-size: 7.5px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+}
+
+p,
+a {
+  all: unset;
+  font-family: Sora;
+  color: #000;
+}
+
+.menu {
+  display: flex;
+  padding-top: 7.8rem;
+  padding-left: 8.6rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.other-pages {
+  margin-left: 5.7rem;
+  margin-right: 5.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages {
+  margin-left: 2.55rem;
+  margin-right: 2.55rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.pages:hover {
+  padding: 0.5rem;
+  border-style: solid;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10.1rem;
+  padding-bottom: 13.2rem;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.06rem;
+}
+
+#title2 {
+  font-size: 10rem;
+  font-weight: 700;
+  letter-spacing: -0.1rem;
+  margin-bottom: 2.2rem;
+}
+
+.banner {
+  width: 100%;
+}
+
+.desc-container {
+  width: 172.6rem;
+  flex-shrink: 0;
+  border-radius: 5rem;
+  border: 0.1rem solid #000;
+  background: #cbcbc6;
+  margin-top: 6.4rem;
+}
+
+#comparison-desc {
+  display: flex;
+  width: 158.7rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  text-align: justify;
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-top: 5.6rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+#ex-op1 {
+  text-align: justify;
+  font-size: 3.5rem;
+  font-weight: 300;
+  font-family: Sora;
+  color: #000;
+  margin-bottom: 5.6rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+#ex-op2 {
+  margin-left: 9rem;
+}
