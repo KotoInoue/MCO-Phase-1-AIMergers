@@ -1,22 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
 
 :root {
-  width: 1920px;
-  height: 2470px;
+  /* width: 1920px;
+  height: 2470px; */
   background: #cbcbc6;
+  font-size: 7.5px;
 }
 
 body {
-  flex-shrink: 0;
-  margin: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+  position: relative;
 }
 
 #background {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
-  mix-blend-mode: lighten;
+  z-index: -1000;
+  width: 100%;
 }
 
 p,
@@ -28,13 +31,13 @@ a {
 
 .menu {
   display: flex;
-  margin-top: 78px;
-  margin-left: 86px;
+  padding-top: 7.8rem;
+  padding-left: 8.6rem;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
   flex-shrink: 0;
 }
 
@@ -43,23 +46,23 @@ a {
 }
 
 .other-pages {
-  margin-left: 57px;
-  margin-right: 57px;
+  margin-left: 5.7rem;
+  margin-right: 5.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .pages {
-  margin-left: 25.5px;
-  margin-right: 25.5px;
-  font-size: 20px;
+  margin-left: 2.55rem;
+  margin-right: 2.55rem;
+  font-size: 2rem;
   cursor: pointer;
   transition: 100ms;
 }
 
 .pages:hover {
-  padding: 5px;
+  padding: 0.5rem;
   border-style: solid;
 }
 
@@ -67,7 +70,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 101px;
+  margin-top: 10.1rem;
+  padding-bottom: 13.4rem;
 }
 
 .titles {
@@ -77,22 +81,22 @@ a {
 }
 
 #title1 {
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
-  letter-spacing: -0.6px;
+  letter-spacing: -0.06rem;
 }
 
 #title2 {
-  font-size: 100px;
+  font-size: 10rem;
   font-weight: 700;
-  letter-spacing: -1px;
+  letter-spacing: -0.1rem;
 }
 
 #title3 {
   color: #006937;
-  font-size: 35px;
-  letter-spacing: -0.35px;
-  margin-top: 18px;
+  font-size: 3.5rem;
+  letter-spacing: -0.035rem;
+  margin-top: 1.8rem;
 }
 
 .image-container {
@@ -100,30 +104,39 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 44px;
+  margin-top: 4.4rem;
+}
+
+.pfp-bg {
+  width: 100%;
 }
 
 #img1,
 #img2,
 #img3 {
-  width: 550px;
-  height: 890px;
+  width: 47.5rem;
+  height: 89rem;
   flex-shrink: 0;
-  border-radius: 50px;
+  border-radius: 5rem;
   position: relative;
+  padding-top: 3.75rem;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
 }
 
 #img2 {
-  margin-left: 38px;
-  margin-right: 38px;
+  margin-left: 3.8rem;
+  margin-right: 3.8rem;
 }
 
-#pfp1,
-#pfp2,
-#pfp3 {
-  border-radius: 50px;
-  margin-top: 37.5px;
-  margin-left: 37.5px;
+.profile-pictures {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5rem;
+  /* margin-top: 3.75rem;
+  margin-left: 3.75rem;
+  margin-right: 3.75rem; */
   position: relative;
   z-index: 100;
 }
@@ -131,7 +144,7 @@ a {
 .pfp-bg {
   position: absolute;
   mix-blend-mode: color-burn;
-  border-radius: 50px;
+  border-radius: 5rem;
   z-index: -1;
   top: 0;
   left: 0;
@@ -141,96 +154,101 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 25.5px;
+  margin-top: 2.55rem;
 }
 
 .position {
   color: #18224f;
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 600;
-  letter-spacing: 2.5px;
+  letter-spacing: 0.25rem;
 }
 
 .name {
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 600;
-  letter-spacing: -1px;
+  letter-spacing: -0.1rem;
 }
 
 .desc-container {
-  width: 1726px;
-  height: 860px;
+  width: 172.6rem;
+  height: 86rem;
   flex-shrink: 0;
-  border-radius: 50px;
-  border: 1px solid #000;
+  border-radius: 5rem;
+  border: 0.1rem solid #000;
   background: #cbcbc6;
-  margin-top: 74px;
+  margin-top: 7.4rem;
 }
 
 #team-info1 {
   display: flex;
-  width: 1587px;
+  width: 158.7rem;
   flex-direction: column;
   flex-shrink: 0;
   text-align: justify;
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 300;
-  margin-top: 56px;
-  margin-bottom: 56px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-top: 5.6rem;
+  margin-bottom: 5.6rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 
 .wrapper {
-  width: 1920px;
-  height: 2470px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   z-index: -100;
+}
+
+#bg-wrapper {
+  mix-blend-mode: lighten;
 }
 
 #circle1,
 #circle2 {
-  width: 450px;
-  height: 450px;
+  width: 45rem;
+  height: 45rem;
   flex-shrink: 0;
-  border-radius: 450px;
-  border: 2px solid #18224f;
+  border-radius: 45rem;
+  border: 0.2rem solid #18224f;
   position: absolute;
   overflow: hidden;
 }
 
 #circle1 {
-  top: -147px;
-  margin-left: 1454px;
+  top: -14.7rem;
+  margin-left: 145.4rem;
 }
 
 #circle2 {
-  left: -216px;
-  top: 1994px;
+  left: -21.6rem;
+  bottom: 2.6rem;
   z-index: -1;
 }
 
 #circle3,
 #circle4 {
-  width: 368px;
-  height: 368px;
+  width: 36.8rem;
+  height: 36.8rem;
   flex-shrink: 0;
-  border-radius: 450px;
-  border: 2px solid #006937;
+  border-radius: 45rem;
+  border: 0.2rem solid #006937;
   position: absolute;
-  overflow: hidden;
 }
 
 #circle3 {
-  top: 38px;
-  margin-left: 1690px;
+  top: 3.8rem;
+  margin-left: 169rem;
 }
 
 #circle4 {
-  top: 2179px;
-  margin-left: 20px;
+  /* top: 217.9rem; */
+  bottom: -7.7rem;
+  margin-left: 2rem;
   z-index: -1;
 }

@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
 
 :root {
-  width: 1920px;
-  height: 1080px;
+  /* width: 1920px;
+  height: 1080px; */
   background: #cbcbc6;
+  font-size: 7.5px;
 }
 
 #background {
@@ -12,6 +13,7 @@
   left: 0;
   z-index: -1;
   mix-blend-mode: exclusion;
+  width: 100%;
 }
 
 p,
@@ -22,16 +24,17 @@ a {
 }
 
 body {
-  margin: 0px;
+  margin: 0rem;
+  width: 100%;
 }
 
 .contents {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 78px;
-  padding-bottom: 90px;
-  padding-left: 86px;
-  padding-right: 120px;
+  padding-top: 7.8rem;
+  padding-bottom: 9rem;
+  padding-left: 8.6rem;
+  padding-right: 12rem;
 }
 
 .menu {
@@ -39,8 +42,8 @@ body {
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
   flex-shrink: 0;
 }
 
@@ -49,82 +52,82 @@ body {
 }
 
 .other-pages {
-  margin-left: 57px;
-  margin-right: 57px;
+  margin-left: 5.7rem;
+  margin-right: 5.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .pages {
-  margin-left: 25.5px;
-  margin-right: 25.5px;
-  font-size: 20px;
+  margin-left: 2.55rem;
+  margin-right: 2.55rem;
+  font-size: 2rem;
   cursor: pointer;
   transition: 100ms;
 }
 
 .pages:hover {
-  padding: 5px;
+  padding: 0.5rem;
   border-style: solid;
 }
 
 .titles {
   display: flex;
   flex-direction: column;
-  margin-top: 181px;
-  margin-left: 20px;
+  margin-top: 18.1rem;
+  margin-left: 2rem;
 }
 
 #title1 {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 600;
-  letter-spacing: -0.25px;
+  letter-spacing: -0.025rem;
 }
 
 #title2 {
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 700;
-  margin-top: 36px;
+  margin-top: 3.6rem;
 }
 
 #title3 {
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 300;
 }
 
 .account {
   display: flex;
   align-items: center;
-  margin-top: 142px;
-  margin-left: 20px;
+  margin-top: 14.2rem;
+  margin-left: 2rem;
 }
 
 #acc-proceed-img {
-  width: 93px;
-  height: 93px;
+  width: 9.3rem;
+  height: 9.3rem;
   flex-shrink: 0;
-  padding-right: 20px;
+  padding-right: 2rem;
   cursor: pointer;
 }
 
 #acc-proceed-text {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 600;
   cursor: pointer;
   transition: 100ms;
 }
 
 #acc-proceed-text:hover {
-  padding: 5px;
+  padding: 0.5rem;
   border-style: solid;
 }
 
 #bg-shape {
-  width: 912px;
-  height: 912px;
+  width: 91.2rem;
+  height: 91.2rem;
   flex-shrink: 0;
-  border-radius: 912px;
+  border-radius: 91.2rem;
   background: #18224f;
 }
 
@@ -136,20 +139,20 @@ body {
 }
 
 #plane1 {
-  width: 438.957px;
-  height: 488.683px;
+  width: 43.8957rem;
+  height: 48.8683rem;
   flex-shrink: 0;
   position: absolute;
   z-index: 100;
-  padding-top: 208.57px;
-  padding-left: 279.19px;
+  padding-top: 20.857rem;
+  padding-left: 27.919rem;
 }
 
 #plane2 {
-  width: 625px;
-  height: 497.257px;
+  width: 62.5rem;
+  height: 49.7257rem;
   flex-shrink: 0;
   position: absolute;
-  padding-top: 206px;
-  padding-left: 94px;
+  padding-top: 20.6rem;
+  padding-left: 9.4rem;
 }
