@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+:root {
+  background: #cbcbc6;
+  font-size: 7.5px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+}
+
+p,
+a {
+  all: unset;
+  font-family: Sora;
+  color: #000;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.menu {
+  display: flex;
+  padding-top: 7.8rem;
+  padding-left: 8.6rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.other-pages {
+  margin-left: 5.7rem;
+  margin-right: 5.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages {
+  margin-left: 2.55rem;
+  margin-right: 2.55rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.pages:hover {
+  padding: 0.5rem;
+  border-style: solid;
+}
+
+#profile-container {
+  width: 80rem;
+  height: 59.8rem;
+  display: flex;
+  margin-top: 6.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #000;
+  background: #CBCBC6;
+}
+
+#email-info {
+  height: 3.9rem;
+  margin-top: 5.4rem;
+  margin-left: 5.2rem;
+  color: #000;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#change-email {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-left: 2rem;
+  width: 15.75rem;
+  height: 6.4rem;
+  margin-top: 38.5rem;
+  margin-left: 5.2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid;
+  background: #CBCBC6;
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#change-password {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-left: 2rem;
+  width: 20.5rem;
+  height: 6.4rem;
+  margin-top: 47rem;
+  margin-left: 5.2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid;
+  background: #CBCBC6;
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+}

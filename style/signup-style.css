@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+:root {
+  background: #cbcbc6;
+  font-size: 7.5px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+}
+
+p,
+a {
+  all: unset;
+  font-family: Sora;
+  color: #000;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.menu {
+  display: flex;
+  padding-top: 7.8rem;
+  padding-left: 8.6rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.other-pages {
+  margin-left: 5.7rem;
+  margin-right: 5.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages {
+  margin-left: 2.55rem;
+  margin-right: 2.55rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.pages:hover {
+  padding: 0.5rem;
+  border-style: solid;
+}
+
+.sign-container1 {
+  width: 61rem;
+  height: 74.5rem;
+  border-radius: 5rem 5rem 0.5rem 0.5rem;
+  border: 0.1rem solid #000;
+  background: #CBCBC6;
+  margin-top: 8.7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#welcome-text {
+  color: #000;
+  font-size: 4rem;
+  font-family: Sora;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+#signup-text {
+  color: #000;
+  font-size: 2.5rem;
+  font-family: Sora;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.identification-input {
+  width: 35.0rem;
+  height: 6.5rem;
+  font-family: Sora;
+  background-color: #CBCBC6;
+  border-radius: 0.5rem;
+  border: 1px solid #000;
+  text-indent: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#identification-email {
+  margin-top: 13.4rem;
+}
+
+#identification-password {
+  margin-top: 2.9rem;
+}
+
+#proceed-button {
+  appearance: button;
+  width: 35rem;
+  height: 6.5rem;
+  border-radius: 5rem;
+  color: #18224F;
+  border: 0.1rem solid;
+  font-size: 2.5rem;
+  font-family: Sora;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#proceed-button:hover {
+  cursor: pointer;
+}
+
+#redirect-login {
+  color: #000;
+  font-size: 2rem;
+  font-family: Sora;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 13rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#redirect-login:hover {
+  cursor: pointer;
+}
